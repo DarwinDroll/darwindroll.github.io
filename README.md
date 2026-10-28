@@ -1,4 +1,4 @@
-# Darwin Droll — personal website
+# Darwin Igemonas Droll — personal website
 
 A responsive static rebuild of the supplied darwindroll.com archive. No build
 step, JavaScript, framework, external fonts, analytics or contact-form service
@@ -7,10 +7,10 @@ is required.
 ## Pages
 
 - [Home](index.html): mission, values, seven technologies and all 14 certifications.
-- [My Story](my-story.html): the archived personal journey and four original images.
-- [Contact](contact.html): a `mailto:contact@darwindroll.com` link.
 - [Imprint](imprint.html): operator and contact details from the archive.
 - [Data protection](datenschutz.html): privacy information for the static site.
+
+The homepage contact buttons link directly to `mailto:contact@darwindroll.com`.
 
 All pages use [style.css](style.css). Original imagery and technology logos are
 stored in [images/](images/); no image is hotlinked to Squarespace.
@@ -26,8 +26,8 @@ not configure a custom domain or alter DNS.
 
 ## Content and legal review
 
-The archive is the source of the biography, email addresses, certifications,
-address, telephone number and VAT ID. Minor spelling and grammar corrections
+The archive is the source of the homepage text, email addresses, certifications,
+address and telephone number. Minor spelling and grammar corrections
 have been made, without adding qualifications or updating employment claims.
 
 Before publishing, confirm that those archived details are still current and

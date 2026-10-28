@@ -36,6 +36,8 @@ ul { padding: 0; margin: 0; list-style: none; }
 nav { display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; }
 nav a { font-size: .9rem; text-decoration: none; color: var(--muted); padding-block: .6rem; }
 nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; text-underline-offset: .6rem; }
+.social-link { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; }
+.social-link img { width: 24px; height: 24px; }
 .hero { position: relative; isolation: isolate; overflow: hidden; padding-block: 5.7rem 5rem; }
 .hero::before, .page-hero::before, .contact-main::before { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, var(--background) 10%, #0c100ed9 55%, #0c100e8c), url("images/green-tree.webp") center / cover no-repeat; opacity: .48; }
 .hero-grid { display: grid; grid-template-columns: 1.35fr 1fr; align-items: center; gap: 5rem; }
